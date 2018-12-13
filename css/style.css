@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p,address{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@font-face{
+    font-family:tahoma;
+    src:url(../fonts/tahoma/Tahoma.ttf);
+} 
+body{
+    font-family:tahoma;
+}
+/*--main css start now--*/
+header .logo{
+    left: 0;
+    padding-top: 46px;
+}
+header{
+    background: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header h2{
+    padding: 120px 0px 75px;
+    font-size: 60px;
+    color: #60ff00;
+    font-weight: 600;
+}
+header h3{
+    font-size: 40px;
+    color: #fff;
+}
+header h3 span{
+    font-size: 55px;
+    font-weight: 600;
+    padding-bottom: 120px;
+}
+header h4{
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px 0px 15px;
+    font-size: 36px;
+    color: #fff;
+}
+header .reg_title h4{
+        color: #60ff00;
+        text-align: center;
+        background: url(../images/reg.png);
+        margin-bottom: 10px;
+        border: 1px solid #7d98b0;
+    }
+
+header .form{
+    background: url(../images/form_bg.png);
+    border: 1px solid #a5bbcc;
+    padding: 20px;
+    margin-bottom: 150px;
+    width: 100%;
+}
+header .form .send {
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	background: #009530;
+	min-height: 60px;
+	width: 100%;
+}
+header .form .send:hover{
+    background: #000c69;
+    color: #fff;
+}
+header .form .form-check-label{
+    padding: 20px 0px 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+header .form .my{
+    background: #fff;
+    border: 1px solid #60ff00;
+    height: 50px;
+}
+/*--header part end--*/
+#work{
+    background: url(../images/work_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.work_title h2{
+    background:  url(../images/work_title_bg.png);
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 29px 0px;
+}
+#work .arrow{
+    left: 38%;
+    position: absolute;
+    display: inline-block;
+    padding-top: 60px;
+}
+#work .arrow2{
+    left: 58%;
+    position: absolute;
+    display: inline-block;
+    padding-top: 60px;
+}
+#work .part{
+    text-align: center;
+}
+#work .part img{
+    padding: 40px 0px 18px;
+    display: inline-block;
+}
+#work .part p{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+#work h6{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    color: #60ff00;
+}
+/*--work part ends--*/
+.about_title{
+    background:  url(../images/about_title.png);
+    text-align: center;
+}
+.about_title h2{
+    color: #fff;
+    padding: 28px;
+}
+#about{
+    height: auto;
+    background: url(../images/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#about .step img{
+    padding: 24px 0px 14px;
+    display: inline-block;
+}
+#about .step p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 550;
+}
+#about .step h5{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 550;
+    padding-bottom: 40px;
+}
+/*--about part ends--*/
+#registration{
+    background: #595959;
+}
+#registration a{
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 100px;
+    background: #00aeef; 
+}
+#registration .two{
+    line-height: 110px;
+}
+#registration .two a:hover{
+    background: #000c69;
+    color: #fff;
+}
+#registration .two .blue{
+    font-size: 18px;
+    color: #000;
+    padding: 20px 100px;
+    background: #60ff00;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+#registration .two .green{
+    font-size: 18px;
+    color: #000;
+    padding: 20px 100px;
+    background: #fff;
+    border-radius: 10px;
+}
+/*--button part ends--*/
+footer{
+    background: #050505;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 0px;
+}
+/*--copyright part ends--*/

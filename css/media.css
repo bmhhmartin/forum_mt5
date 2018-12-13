@@ -1,0 +1,115 @@
+@media(min-width:768px) and (max-width:991px){
+    header h2{
+        padding: 80px 0px 55px;
+        font-size: 50px;
+    }
+    header h3{
+        font-size: 35px;
+    }
+    header h3 span{
+        font-size: 45px;
+        padding-bottom: 80px;
+    }
+    header h4{
+        font-size: 30px;
+    }
+    header .form{
+        padding: 15px;
+        margin-bottom: 150px;
+    }
+    header .form .send{
+        font-size: 12px;
+        padding: 10px 70px 13px;
+    }
+    header .form p{
+        padding: 15px 0px;
+        font-size: 12px;
+    }
+    header .form .my{
+        height: 50px;
+    }
+    /*--header part end--*/
+    #work .arrow{
+        left: 28%;
+        position: absolute;
+        padding-top: 60px;
+    }
+    #work .arrow2{
+        left: 63%;
+        padding-top: 60px;
+    }
+    /*--work part end--*/
+}
+/*--tablet part ends--*/
+@media(min-width:320px) and (max-width:767px){
+     header h2{
+        text-align: center;
+        padding: 30px 0px;;
+        font-size: 35px;
+    }
+    header h3{
+        text-align: center;
+        font-size: 28px;
+    }
+    header h3 span{
+        font-size: 35px;
+    }
+    header h4{
+        text-align: center;
+        font-size: 35px;
+    }
+    header .form{
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 80px;
+    }
+    header .form p{
+        padding: 15px 0px;
+        font-size: 12px;
+    }
+    header .form .my{
+        height: 50px;
+    }
+    /*--header part end--*/
+    .work_title h2{
+        font-size: 22px;
+    }
+    #work .part img{
+        padding: 30px 0px 12px;
+    }
+    #work .part p{
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+    #work h6{
+        padding-top: 15px;
+        font-size: 13px;
+    }
+    /*--work part ends--*/
+    .about_title h2{
+        font-size: 22px;
+    }
+    #about .step img{
+        padding: 24px 0px 14px;
+        display: inline-block;
+    }
+    #about .step p{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 550;
+    }
+    /*--about part ends--*/
+    #registration .two{
+        line-height: 70px;
+    }
+    #registration .two .blue{
+        font-size: 14px;
+        padding: 15px 50px;
+        margin-right: 0px;
+    }
+    #registration .two .green{
+        font-size: 14px;
+        padding: 15px 50px;
+    }
+    /*--registration part ends--*/
+}
